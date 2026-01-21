@@ -7,7 +7,6 @@ import {
   FaWhatsapp,
   FaEnvelope,
 } from "react-icons/fa";
-import { MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,23 +18,23 @@ const Footer = () => {
           <h3 className="footer-title">Connect With Us</h3>
 
           <div className="social-grid">
-            <a href="https://gdg.community.dev/gdg-on-campus-narayana-engineering-college-nellore-india/" target="_blank">
+            <a href="https://gdg.community.dev/gdg-on-campus-narayana-engineering-college-nellore-india/" target="_blank" rel="noopener noreferrer">
               <FaGlobe /> <span>Website</span>
             </a>
 
-            <a href="https://www.instagram.com/gdg_on_campus_necn" target="_blank">
+            <a href="https://www.instagram.com/gdg_on_campus_necn" target="_blank" rel="noopener noreferrer">
               <FaInstagram /> <span>Instagram</span>
             </a>
 
-            <a href="https://www.linkedin.com/company/gdg-on-campus-necn" target="_blank">
+            <a href="https://www.linkedin.com/company/gdg-on-campus-necn" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn /> <span>LinkedIn</span>
             </a>
 
-            <a href="https://whatsapp.com/channel/0029Vau7I8D6buMOikydvg2I" target="_blank">
+            <a href="https://whatsapp.com/channel/0029Vau7I8D6buMOikydvg2I" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp /> <span>WhatsApp</span>
             </a>
 
-            <a href="https://www.youtube.com/@GDG-On-Campus-NECN" target="_blank">
+            <a href="https://www.youtube.com/@GDG-On-Campus-NECN" target="_blank" rel="noopener noreferrer">
               <FaYoutube /> <span>YouTube</span>
             </a>
 
@@ -50,6 +49,7 @@ const Footer = () => {
           <a
             href="https://maps.google.com/?q=Narayana+Engineering+College+Nellore"
             target="_blank"
+            rel="noopener noreferrer"
             className="map-card"
           >
 

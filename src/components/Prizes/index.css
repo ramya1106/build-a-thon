@@ -1,7 +1,7 @@
 .prizes-section {
   min-height: 100vh;
   background: linear-gradient(180deg, #071b3a, #0b2e63);
-  padding: 60px 20px;
+  padding: 60px 20px 20px 20px;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@
 
 .prize-label {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 2px;
   margin-bottom: 0px;
 }
@@ -57,7 +57,7 @@
   font-size: 16px;
   text-align: center;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 28px;
 }
 
 @media (max-width: 768px){
@@ -83,7 +83,7 @@
   }
 
   .prize-label{
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .prize-amount{
@@ -91,6 +91,6 @@
   }
 
   .prizes-description{
-  font-size: 14px;
+    font-size: 14px;
 }
 }
