@@ -1,7 +1,7 @@
 .prizes-section {
   min-height: 100vh;
   background: linear-gradient(180deg, #071b3a, #0b2e63);
-  padding: 60px 20px 20px 20px;
+  padding: 60px 20px 0px 20px;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@
   font-size: 16px;
   text-align: center;
   color: #fff;
-  margin-top: 28px;
+  margin-top: 36px;
 }
 
 @media (max-width: 768px){
@@ -83,7 +83,7 @@
   }
 
   .prize-label{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .prize-amount{
