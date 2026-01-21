@@ -21,7 +21,7 @@
 }
 
 .nav-logo img {
-  height: 64px;
+  height: 80px;
   width: auto;
 }
 
@@ -34,7 +34,7 @@
 .nav-links span,
 .nav-links a {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   cursor: pointer;
   position: relative;
@@ -85,6 +85,10 @@
     display: none;
   }
 
+  .nav-logo img {
+  height: 72px;
+  }
+  
   .nav-toggle {
     display: block;
   }

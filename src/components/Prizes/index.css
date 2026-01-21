@@ -53,6 +53,12 @@
   color: #ffd200;
 }
 
+.prizes-description{
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
 @media (max-width: 768px){
   .prizes-section{
     padding: 40px 20px 60px 20px;
@@ -82,4 +88,8 @@
   .prize-amount{
     font-size: 14px;
   }
+
+  .prizes-description{
+  font-size: 14px;
+}
 }
