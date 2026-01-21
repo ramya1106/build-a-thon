@@ -1,0 +1,24 @@
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background: #ffd200;
+  padding: 12px 0;
+}
+
+.marquee-track {
+  white-space: nowrap;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #0b3c8d;
+  animation: marquee-scroll 18s linear infinite;
+  font-size: 14px;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

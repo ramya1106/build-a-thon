@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import MarqueeSeparator from "./components/MarqueeSeparator";
+import CountdownTimer from "./components/CountdownTimer";
+import Ticketing from "./components/Ticketing";
+import Prizes from "./components/Prizes";
+import Team from "./components/Team";
+import Rules from "./components/Rules";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+
+      <section id="about"><Hero /></section>
+
+      <MarqueeSeparator text="★ BUILD-A-THON" />
+
+      <section id="countdown"><CountdownTimer /></section>
+
+      <MarqueeSeparator text="★ REGISTER NOW" />
+
+      <section id="registration"><Ticketing /></section>
+
+      <MarqueeSeparator text="★ PRIZES" />
+
+      <section id="prizes"><Prizes /></section>
+
+      <MarqueeSeparator text="★ OUR TEAM" />
+
+      <section id="team"><Team /></section>
+
+      <MarqueeSeparator text="★ RULES" />
+
+      <section id="rules"><Rules /></section>
+
+      <Footer />
+    </>
   );
 }
 
