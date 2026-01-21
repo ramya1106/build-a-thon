@@ -38,7 +38,7 @@ const Prizes = () => {
           </div>
         ))}
       </div>
-      <h3 className="prizes-description">Exciting cash prizes for Top 3 teams!</h3>
+      <p className="prizes-description">Exciting cash prizes for Top 3 teams!</p>
     </section>
   );
 };
