@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import MarqueeSeparator from "./components/MarqueeSeparator";
 import CountdownTimer from "./components/CountdownTimer";
 import Ticketing from "./components/Ticketing";
+import Themes from "./components/Themes";
 import Prizes from "./components/Prizes";
 import Team from "./components/Team";
 import Rules from "./components/Rules";
@@ -24,6 +25,10 @@ function App() {
       <MarqueeSeparator text="★ REGISTER NOW" />
 
       <section id="registration"><Ticketing /></section>
+
+      <MarqueeSeparator text="★ THEMES" />
+
+      <section id="themes"><Themes /></section>
 
       <MarqueeSeparator text="★ PRIZES" />
 
