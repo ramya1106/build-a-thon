@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="badge">GDG ON CAMPUS NECN × NECN CODING CLUB</div>
 
             <p className="date">
-              <span>31st Jan – 1st Feb</span> • Friday – Saturday
+              <span>31st Jan – 1st Feb</span> • Saturday – Sunday
             </p>
 
             <div className="stats">
